@@ -38,13 +38,10 @@ The Employee Management System is a relational database project designed to mana
 
 ## Sample Queries
 ### Retrieve Employee Details
-**List all employees with their last name, first name, and salary: Use this query to list all employees along with their last name, first name, and salary.
-**List employees hired in 1986 with their first name, last name, and hire date
-This query retrieves employees hired in the year 1986, displaying their first name, last name, and hire date.
-**List the manager of each department with their department number, department name, employee number, last name, and first name
-Use this query to identify the manager of each department, displaying their department number, department name, employee number, last name, and first name.
-**List the frequency counts of all employee last names in descending order
-This query provides the frequency counts of all employee last names, sorted in descending order.
+* List all employees with their last name, first name, and salary: Use this query to list all employees along with their last name, first name, and salary.
+* List employees hired in 1986 with their first name, last name, and hire date: This query retrieves employees hired in the year 1986, displaying their first name, last name, and hire date.
+* List the manager of each department with their department number, department name, employee number, last name, and first name: Use this query to identify the manager of each department, displaying their department number, department name, employee number, last name, and first name.
+* List the frequency counts of all employee last names in descending order: This query provides the frequency counts of all employee last names, sorted in descending order.
 
 # Conclusion
 The Employee Management System provides a structured approach to manage employee data effectively. With its well-defined schema and comprehensive queries, organizations can efficiently retrieve and analyze employee information based on specific requirements. Whether it's tracking department assignments, managing salaries, or identifying employee demographics, this system offers the flexibility and scalability to adapt to diverse organizational needs.
