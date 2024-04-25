@@ -7,29 +7,29 @@ The Employee Management System is a relational database project designed to mana
 
 ### Tables
 1.	departments
-** dept_no: Department number (Primary Key)
-** dept_name: Department name
+** deptno: Department number (Primary Key)
+** deptname: Department name
 2.	titles
-** title_id: Title ID (Primary Key)
+** titleid: Title ID (Primary Key)
 ** title: Employee title
 3.	employees
-** emp_no: Employee number (Primary Key)
-** emp_title_id: Employee title ID (Foreign Key)
-** birth_date: Employee birth date
-** first_name: Employee first name
-** last_name: Employee last name
+** empno: Employee number (Primary Key)
+** emptitleid: Employee title ID (Foreign Key)
+** birthdate: Employee birth date
+** firstname: Employee first name
+** lastname: Employee last name
 ** sex: Employee gender
-** hire_date: Employee hire date
-4.	dept_emp
-** emp_no: Employee number (Foreign Key)
-** dept_no: Department number (Foreign Key)
-** Primary Key: (emp_no, dept_no)
-5.	dept_manager
-** dept_no: Department number (Foreign Key)
-** emp_no: Employee number (Foreign Key)
-** Primary Key: (emp_no, dept_no)
+** hiredate: Employee hire date
+4.	deptemp
+** empno: Employee number (Foreign Key)
+** deptno: Department number (Foreign Key)
+** Primary Key: (empno, deptno)
+5.	deptmanager
+** deptno: Department number (Foreign Key)
+** empno: Employee number (Foreign Key)
+** Primary Key: (empno, deptno)
 6.	salaries
-** emp_no: Employee number (Foreign Key)
+** empno: Employee number (Foreign Key)
 ** salary: Employee salary
   	
 ## Setup and Configuration
