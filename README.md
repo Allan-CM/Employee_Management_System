@@ -7,8 +7,8 @@ The Employee Management System is a relational database project designed to mana
 
 ### Tables
 1. departments
-* dept_no: Department number (Primary Key)
- dept_name: Department name
+  * dept_no: Department number (Primary Key)
+  * dept_name: Department name
 2. titles
 *  title_id: Title ID (Primary Key)
 * title: Employee title
