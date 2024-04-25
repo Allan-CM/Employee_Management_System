@@ -6,32 +6,32 @@ The Employee Management System is a relational database project designed to mana
 ## Database Schema
 
 ### Tables
-1.	departments
-** deptno: Department number (Primary Key)
-** deptname: Department name
-2.	titles
-** titleid: Title ID (Primary Key)
-** title: Employee title
-3.	employees
-** empno: Employee number (Primary Key)
-** emptitleid: Employee title ID (Foreign Key)
-** birthdate: Employee birth date
-** firstname: Employee first name
-** lastname: Employee last name
-** sex: Employee gender
-** hiredate: Employee hire date
-4.	deptemp
-** empno: Employee number (Foreign Key)
-** deptno: Department number (Foreign Key)
-** Primary Key: (empno, deptno)
-5.	deptmanager
-** deptno: Department number (Foreign Key)
-** empno: Employee number (Foreign Key)
-** Primary Key: (empno, deptno)
-6.	salaries
-** empno: Employee number (Foreign Key)
-** salary: Employee salary
-  	
+1. departments
+* dept_no: Department number (Primary Key)
+ dept_name: Department name
+2. titles
+*  title_id: Title ID (Primary Key)
+* title: Employee title
+3. employees
+* emp_no: Employee number (Primary Key)
+* emp_title_id: Employee title ID (Foreign Key)
+* birth_date: Employee birth date
+* first_name: Employee first name
+* last_name: Employee last name
+* sex: Employee gender
+* hire_date: Employee hire date
+4. dept_emp
+* emp_no: Employee number (Foreign Key)
+* dept_no: Department number (Foreign Key)
+* Primary Key: (emp_no, dept_no)
+5. dept_manager
+* dept_no: Department number (Foreign Key)
+* emp_no: Employee number (Foreign Key)
+* Primary Key: (emp_no, dept_no)
+6. salaries
+* emp_no: Employee number (Foreign Key)
+* salary: Employee salary
+  
 ## Setup and Configuration
 1.	Database Initialization - Execute the provided SQL scripts to create the necessary tables and set up the database schema. Ensure that the PostgreSQL server is running and accessible before executing the scripts.
 2.	Date Format Configuration - The date format for the database is set to "ISO, MDY" to maintain consistency in date representations across queries.
