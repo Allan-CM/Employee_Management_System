@@ -47,9 +47,9 @@ The Employee Management System is a relational database project designed to mana
 The Employee Management System provides a structured approach to manage employee data effectively. With its well-defined schema and comprehensive queries, organizations can efficiently retrieve and analyze employee information based on specific requirements. Whether it's tracking department assignments, managing salaries, or identifying employee demographics, this system offers the flexibility and scalability to adapt to diverse organizational needs.
 
  # Employee Management System Repo Structure
-*EmployeeSQL: contains code and data
-** ERD: Entity relational diagram for this dataset
-** Query.sql: contains query data for this code 
-** Schema.sql: code used to create schema and relate the various datasets
-**Data folder: Contains all the data used for this project in the form of a csv
+* EmployeeSQL: contains code and data
+  * ERD: Entity relational diagram for this dataset
+  * Query.sql: contains query data for this code 
+  * Schema.sql: code used to create schema and relate the various datasets
+  * Data folder: Contains all the data used for this project in the form of a csv
 
